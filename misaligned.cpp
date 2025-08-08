@@ -32,9 +32,9 @@ void testPrintColorMap() {
     auto colorMap = getColorMap();
  
     assert(colorMap.size() == 25);
-    assert(colorMap[0] == "0 | White | Blue");      // Will fail
-    assert(colorMap[6] == "6 | Red | Green");       // Will fail
-    assert(colorMap[24] == "24 | Violet | Slate");  // Will fail
+    assert(colorMap[0] == "0 | White | Blue");      
+    assert(colorMap[6] == "6 | Red | Green");       
+    assert(colorMap[24] == "24 | Violet | Slate");  
  
     std::cout << "All is well (maybe!)\n";
 }
@@ -43,3 +43,4 @@ int main() {
     testPrintColorMap();
     return 0;
 }
+
